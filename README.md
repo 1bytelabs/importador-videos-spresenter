@@ -1,12 +1,14 @@
-# Importador de Vídeos — Zosma Labs
+<p align="center"><img src="./assets/1bytelabs-cover.svg" alt="importador-videos-spresenter — 1Byte Labs" width="100%" /></p>
+
+# Importador de Vídeos — 1Byte Labs
 
 **Pesquise, baixe e importe vídeos ou áudios para o SPresenter sem sair do fluxo de trabalho.**
 
-Plugin gratuito da [Zosma Labs](https://zosma.com.br) para analisar links autorizados, baixar vídeos ou extrair o áudio em MP3 e importá-los para **Fundos**, **Vídeos** ou **Trilha** no SPresenter. Também permite pesquisar vídeos gratuitos no Pixabay e no Pexels e adicioná-los diretamente aos Fundos.
+Plugin gratuito da [1Byte Labs](https://github.com/1bytelabs) para analisar links autorizados, baixar vídeos ou extrair o áudio em MP3 e importá-los para **Fundos**, **Vídeos** ou **Trilha** no SPresenter. Também permite pesquisar vídeos gratuitos no Pixabay e no Pexels e adicioná-los diretamente aos Fundos.
 
 > **Versão em desenvolvimento: 0.4.0** · versão pública estável: 0.3.3
 
-[Baixar a versão mais recente](https://github.com/zosmalabs/importador-videos-spresenter/releases/latest) · [Tutorial](https://youtu.be/kxIf_o-fvas) · [Site da Zosma](https://zosma.com.br)
+[Baixar a versão mais recente](https://github.com/1bytelabs/importador-videos-spresenter/releases/latest) · [Tutorial](https://youtu.be/kxIf_o-fvas) · [Projetos da 1Byte Labs](https://github.com/1bytelabs)
 
 ## Principais recursos
 
@@ -19,7 +21,7 @@ Plugin gratuito da [Zosma Labs](https://zosma.com.br) para analisar links autori
 - progresso de download e processamento;
 - auxiliar local para Windows e macOS;
 - chaves de API armazenadas somente no computador do usuário;
-- processamento local, sem servidor da Zosma para receber os vídeos baixados.
+- processamento local, sem servidor da 1Byte Labs para receber os vídeos baixados.
 
 ## Compatibilidade
 
@@ -39,7 +41,7 @@ O auxiliar inicia junto com o sistema e permanece disponível na bandeja do Wind
 
 ## Instalação
 
-Acesse a página de [Releases](https://github.com/zosmalabs/importador-videos-spresenter/releases/latest) e baixe os arquivos correspondentes ao seu sistema.
+Acesse a página de [Releases](https://github.com/1bytelabs/importador-videos-spresenter/releases/latest) e baixe os arquivos correspondentes ao seu sistema.
 
 ### Windows
 
@@ -78,11 +80,11 @@ Ao publicar uma tag no formato `v0.4.0`, a automação gera a release com:
 
 Use somente vídeos próprios, em domínio público ou para os quais você tenha autorização de download e utilização. O usuário é responsável por respeitar direitos autorais e os termos das plataformas de origem.
 
-## Zosma Labs
+## 1Byte Labs
 
 **Ideias transformadas em software.**
 
-[zosma.com.br](https://zosma.com.br)
+[github.com/1bytelabs](https://github.com/1bytelabs)
 
 ## Licença
 
