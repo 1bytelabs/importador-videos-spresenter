@@ -89,3 +89,7 @@ Use somente vídeos próprios, em domínio público ou para os quais você tenha
 ## Licença
 
 Distribuído gratuitamente sob a licença MIT.
+
+## Contato — 1Byte Labs
+
+[1bytelabs.com.br](https://1bytelabs.com.br) · [contato@1bytelabs.com.br](mailto:contato@1bytelabs.com.br)
