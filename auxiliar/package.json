@@ -3,7 +3,11 @@
   "version": "0.4.0",
   "description": "Auxiliar local do Importador de Vídeos para Spresenter",
   "main": "src/main.cjs",
-  "author": "Zosma Labs",
+  "author": {
+    "name": "1Byte Labs",
+    "email": "contato@1bytelabs.com.br",
+    "url": "https://1bytelabs.com.br"
+  },
   "license": "MIT",
   "scripts": {
     "start": "electron .",
@@ -29,7 +33,8 @@
     },
     "win": {
       "target": "nsis",
-      "artifactName": "Auxiliar-Importador-Spresenter-Windows-${version}.${ext}"
+      "artifactName": "Auxiliar-Importador-Spresenter-Windows-${version}.${ext}",
+      "icon": "assets/icon.ico"
     },
     "nsis": {
       "oneClick": false,
@@ -43,7 +48,8 @@
       "target": "dmg",
       "category": "public.app-category.utilities",
       "artifactName": "Auxiliar-Importador-Spresenter-macOS-${arch}-${version}.${ext}",
-      "identity": null
+      "identity": null,
+      "icon": "assets/icon.icns"
     },
     "dmg": {
       "contents": [
@@ -65,5 +71,6 @@
         }
       ]
     }
-  }
+  },
+  "homepage": "https://1bytelabs.com.br"
 }
