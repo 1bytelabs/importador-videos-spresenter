@@ -43,6 +43,6 @@ if (!fs.existsSync(path.join(root, 'LICENSE')) && fs.existsSync(repositoryLicens
 
 const outDir = path.join(root, 'release');
 fs.mkdirSync(outDir, { recursive: true });
-const outFile = path.join(outDir, `${id}-${version}.zip`);
+const outFile = path.join(outDir, `Importador-de-Videos-Spresenter-${version}.zip`);
 zip.writeZip(outFile);
 console.log(`Packaged ${path.relative(root, outFile)}`);
