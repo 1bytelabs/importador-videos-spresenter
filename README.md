@@ -1,12 +1,14 @@
+<p align="center"><img src="./assets/1bytelabs-cover.svg" alt="importador-videos-spresenter — 1Byte Labs" width="100%" /></p>
+
 # Importador de Vídeos — 1Byte Labs
 
 **Pesquise, baixe e importe vídeos ou áudios para o SPresenter sem sair do fluxo de trabalho.**
 
-Plugin gratuito da [1Byte Labs](https://github.com/zosmalabs) para analisar links autorizados, baixar vídeos ou extrair o áudio em MP3 e importá-los para **Fundos**, **Vídeos** ou **Trilha** no SPresenter. Também permite pesquisar vídeos gratuitos no Pixabay e no Pexels e adicioná-los diretamente aos Fundos.
+Plugin gratuito da [1Byte Labs](https://github.com/1bytelabs) para analisar links autorizados, baixar vídeos ou extrair o áudio em MP3 e importá-los para **Fundos**, **Vídeos** ou **Trilha** no SPresenter. Também permite pesquisar vídeos gratuitos no Pixabay e no Pexels e adicioná-los diretamente aos Fundos.
 
 > **Versão em desenvolvimento: 0.4.0** · versão pública estável: 0.3.3
 
-[Baixar a versão mais recente](https://github.com/zosmalabs/importador-videos-spresenter/releases/latest) · [Tutorial](https://youtu.be/kxIf_o-fvas) · [Projetos da 1Byte Labs](https://github.com/zosmalabs)
+[Baixar a versão mais recente](https://github.com/1bytelabs/importador-videos-spresenter/releases/latest) · [Tutorial](https://youtu.be/kxIf_o-fvas) · [Projetos da 1Byte Labs](https://github.com/1bytelabs)
 
 ## Principais recursos
 
@@ -39,7 +41,7 @@ O auxiliar inicia junto com o sistema e permanece disponível na bandeja do Wind
 
 ## Instalação
 
-Acesse a página de [Releases](https://github.com/zosmalabs/importador-videos-spresenter/releases/latest) e baixe os arquivos correspondentes ao seu sistema.
+Acesse a página de [Releases](https://github.com/1bytelabs/importador-videos-spresenter/releases/latest) e baixe os arquivos correspondentes ao seu sistema.
 
 ### Windows
 
@@ -82,8 +84,12 @@ Use somente vídeos próprios, em domínio público ou para os quais você tenha
 
 **Ideias transformadas em software.**
 
-[github.com/zosmalabs](https://github.com/zosmalabs)
+[github.com/1bytelabs](https://github.com/1bytelabs)
 
 ## Licença
 
 Distribuído gratuitamente sob a licença MIT.
+
+## Contato — 1Byte Labs
+
+[1bytelabs.com.br](https://1bytelabs.com.br) · [contato@1bytelabs.com.br](mailto:contato@1bytelabs.com.br)
