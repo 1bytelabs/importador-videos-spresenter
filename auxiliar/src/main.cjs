@@ -551,17 +551,22 @@ app.whenReady().then(async () => {
   app.setLoginItemSettings({ openAtLogin: true, openAsHidden: true });
   const icon = nativeImage.createFromPath(path.join(__dirname, '..', 'assets', 'tray.png'));
   tray = new Tray(icon.resize({ width: 16, height: 16 }));
-  tray.setToolTip('Importador de Vídeos para Spresenter');
+  tray.setToolTip('Importador de Vídeos · 1Byte Labs');
   tray.setContextMenu(Menu.buildFromTemplate([
     {
       label: 'Sobre o aplicativo',
       click: () => dialog.showMessageBox({
         type: 'info',
-        title: 'Sobre o aplicativo',
-        message: 'Importador de Vídeos para Spresenter',
-        detail: `Versão ${app.getVersion()}\n\nEste auxiliar trabalha em segundo plano para baixar e preparar vídeos solicitados pelo plugin do Spresenter.\n\nA comunicação acontece somente dentro deste computador. Ele não abre acesso externo à sua rede e não recebe conexões de outros dispositivos.\n\nO processamento dos vídeos é realizado localmente. Use apenas conteúdos que você tenha autorização para baixar.`,
-        buttons: ['Fechar'],
+        title: 'Sobre · Importador de Vídeos — 1Byte Labs',
+        message: 'Importador de Vídeos para Spresenter · 1Byte Labs',
+        icon: nativeImage.createFromPath(path.join(__dirname, '..', 'assets', 'icon.png')),
+        detail: `Versão ${app.getVersion()}\nDesenvolvido por 1Byte Labs\nhttps://1bytelabs.com.br\ncontato@1bytelabs.com.br\n\nEste auxiliar trabalha em segundo plano para baixar e preparar vídeos solicitados pelo plugin do Spresenter.\n\nA comunicação acontece somente dentro deste computador. Ele não abre acesso externo à sua rede e não recebe conexões de outros dispositivos.\n\nO processamento dos vídeos é realizado localmente. Use apenas conteúdos que você tenha autorização para baixar.`,
+        buttons: ['Fechar', 'Visitar site'],
+        defaultId: 0,
+        cancelId: 0,
         noLink: true
+      }).then(({ response }) => {
+        if (response === 1) shell.openExternal('https://1bytelabs.com.br');
       })
     },
     { label: 'Iniciar com o sistema', type: 'checkbox', checked: true, click: item => app.setLoginItemSettings({ openAtLogin: item.checked }) },
